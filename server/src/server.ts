@@ -2,11 +2,13 @@
 // ts-node-dev eh tipo o nodemon que dx automatico se tiver modificação em algum script e tbm dx mais compativel com o typescrit
 import express from 'express';
 import routes from './routes';
+import cors from 'cors'
 // typescript usa ES2017
 
 const app = express();
 // chama a função 
 
+app.use(cors())
 app.use(express.json())
 // antigamente tinha o body-parse dependecy
 
