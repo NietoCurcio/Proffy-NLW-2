@@ -22,8 +22,7 @@ There are components (with props and children from a parent component) used for 
 
 A React Native app runs on a device, there is the react-navigation and we have a nested navigation, because inside a stack navigator is a tabs navigator (to switch between Favorites and Search Proffys), our mobile is also connected to our server (api calls). We use the AsyncStorage from react native community to store information about who are the favorites professors of the user, in that way, with this data in localStorage we have an array of favorites teachers to display them.
 
-<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image1.jpg?raw=true" height="350" alt="ProffyTeacherList">
-
+<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image1.jpg?raw=true" height="350" alt="ProffyTeacherList"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image2.jpg?raw=true" height="350" alt="ProffysFavorites">
 
 I studied this project on Rocketseat Next Level Week second edition.
