@@ -2,6 +2,8 @@
 
 An app to connect professors with students.
 
+> Node.js, React, React Native
+
 Image
 
 ## Express, server side
@@ -22,4 +24,4 @@ Image
 
 Image
 
-I studied this project on Rocketseat's Next Level Week
+I studied this project on Rocketseat Next Level Week second edition.
