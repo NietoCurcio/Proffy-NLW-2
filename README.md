@@ -7,6 +7,7 @@ An app to connect professors with students.
 <p align="center">
   <img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image0.png?raw=true" width="850" alt="ProffyLanding">
 </p>
+
 ## Express, server side
 
 The server is built with Express framework, in its routes we can get and create classes and connections, each class is created by a user where there is a form to fill name, avatar (photo), whatsapp, biography, subject (i.e, Math), cost and week day that the professor will teach. All these data is stored in four tables which are user, class, class_schedule (for week days) and connections (between students and professors) table.
@@ -21,8 +22,8 @@ There are components (with props and children from a parent component) used for 
 
 A React Native app runs on a device, there is the react-navigation and we have a nested navigation, because inside a stack navigator is a tabs navigator (to switch between Favorites and Search Proffys), our mobile is also connected to our server (api calls). We use the AsyncStorage from react native community to store information about who are the favorites professors of the user, in that way, with this data in localStorage we have an array of favorites teachers to display them.
 
-<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image1.png?raw=true" alt="ProffyTeacherList">
+<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image1.jpg?raw=true" alt="ProffyTeacherList">
 
-<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image2.png?raw=true" alt="ProffysFavorites">
+<img src="https://github.com/NietoCurcio/Proffy-NLW-2/blob/master/.github/image2.jpg?raw=true" alt="ProffysFavorites">
 
 I studied this project on Rocketseat Next Level Week second edition.
